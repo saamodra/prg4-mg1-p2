@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Guestbook</title>
+  <link rel="stylesheet" href="css/apercu.css">
+  <link rel="stylesheet" href="css/0320190026.css">
+</head>
+<body class="index">
+  <nav>
+    <div class="navbar-brand">
+      <a href="/">SM.</a>
+    </div>
+
+    <div class="menu m-0">
+      <a href="index.html" class="text-purple">Home</a>
+      <a href="aboutme.html" class="text-purple">About Me</a>
+      <a href="links.html" class="text-purple">Links</a>
+      <a href="guestbook.html" class="text-purple">Guestbook</a>
+    </div>
+  </nav>
+  <div class="form-container">
+    <h2 class="form-title">Guest Book</h2>
+    <form action="#">
+      <table>
+        <tr>
+          <td style="padding-right: 100px;">Nama</td>
+          <td> </td>
+          <td class="d-flex"><input type="text" name="nama" class="form-control"></td>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td> </td>
+          <td class="d-flex"><textarea name="alamat" cols="35" rows="5" class="form-control"></textarea></td>
+        </tr>
+        <tr>
+          <td>Provinsi</td>
+          <td> </td>
+          <td class="d-flex">
+            <select name="provinsi" class="form-control">
+              <option value="Pilih Provinsi" hidden>Pilih Provinsi</option>
+              <option value="DKI Jakarta">DKI Jakarta</option>
+              <option value="Jawa Barat">Jawa Barat</option>
+              <option value="Jawa Tengah">Jawa Tengah</option>
+              <option value="Jawa Timur">Jawa Timur</option>
+              <option value="Bali">Bali</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Jenis Kelamin</td>
+          <td> </td>
+          <td class="d-flex">
+            <input type="radio">Pria<br>
+            <input type="radio">Wanita
+          </td>
+        </tr>
+        <tr>
+          <td>Tanggal Lahir</td>
+          <td> </td>
+          <td class="d-flex">
+            <select name="hari" class="form-control">
+              <option value="Pilih Hari" hidden>Pilih Hari</option>
+              <option value="Senin">Senin</option>
+              <option value="Selasa">Selasa</option>
+              <option value="Rabu">Rabu</option>
+              <option value="Kamis">Kamis</option>
+              <option value="Jum'at">Jum'at</option>
+              <option value="Sabtu">Sabtu</option>
+              <option value="Minggu">Minggu</option>
+            </select>
+            <select name="bulan" class="form-control">
+              <option value="Pilih Bulan" hidden>Pilih Bulan</option>
+              <option value="Januari">Januari</option>
+              <option value="Februari">Februari</option>
+              <option value="Maret">Maret</option>
+              <option value="April">April</option>
+              <option value="Mei">Mei</option>
+              <option value="Juni">Juni</option>
+              <option value="Juli">Juli</option>
+              <option value="Agustus">Agustus</option>
+              <option value="September">September</option>
+              <option value="Oktober">Oktober</option>
+              <option value="November">November</option>
+              <option value="Desember">Desember</option>
+            </select>
+            <select name="hari" class="form-control">
+              <option value="Pilih Tahun" hidden>Pilih Tahun</option>
+              <option value="1998">1998</option>
+              <option value="2000">2000</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
+              <option value="2003">2003</option>
+              <option value="2004">2004</option>
+              <option value="2005">2005</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Pesan</td>
+          <td> </td>
+          <td class="d-flex">
+            <textarea name="pesan" cols="35" rows="5" class="form-control"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"></td>
+          <td class="d-flex">
+            <button type="submit" class="btn btn-purple">Kirim</button>
+            <button type="button" class="btn btn-purple-outline">Batal</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+
+  </div>
+</body>
+</html>
